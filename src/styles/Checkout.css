@@ -1,0 +1,134 @@
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 1200px;  
+  gap: 20px;
+}
+
+.checkout__items-contenedor {
+  flex: 3;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkout__items-contenedor h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6700;
+  margin-bottom: 20px;  
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.checkout__items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checkout__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.checkout__item-imagen {
+  width: 80px;
+  height: 80px;
+  object-fit: fill;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.checkout__item-detalles {
+  flex: 1;
+}
+
+.checkout__item-titulo {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.checkout__item-resumen {
+  font-size: 14px;
+  margin: 0;
+  color: #666;
+}
+
+.checkout__item-precio {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6700;
+}
+
+.checkout__item-cantidad {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  gap: 10px;
+}
+
+.checkout__item-cantidad-input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: 3px;
+}
+
+.checkout__resumen-contenedor {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkout__resumen-contenedor h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.checkout__resumen-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.checkout__resumen-total {
+  font-weight: bold;
+  font-size: 1.2em;
+  border-top: 2px solid #f0f0f0;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.checkout__resumen-boton-pagar {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff6700;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.checkout__resumen-boton-pagar:hover {
+  background-color: #e65c00;
+}

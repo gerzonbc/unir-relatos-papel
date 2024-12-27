@@ -1,0 +1,65 @@
+.landing {
+    text-align: center;
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
+  }
+  
+ .landing__titulo {
+    font-size: 3rem; 
+    font-weight: bold;
+    color: #ff5722;
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    line-height: 1.2; 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.landing__titulo::after {
+    content: ''; 
+    display: block;
+    width: 1000px;
+    height: 4px;
+    background-color: #fcc232; 
+    margin: 10px auto 0; 
+}
+
+ .landing__mensaje {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.landing__loader {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #ff5722;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 5s linear infinite;
+  margin: 0 auto;
+}
+
+.landing__imagen {
+  width: 250px; 
+  height: 250px;
+  border-radius: 10%;
+  overflow: hidden; 
+  border: 2px solid #ccc;
+  object-fit: contain; 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
