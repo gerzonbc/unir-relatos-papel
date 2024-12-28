@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Carrito.css';
 
-const Carrito = ({ items, onRemove, onCheckout }) => {
+const Carrito = ({ items, onRemove }) => {
   const total = items.reduce((sum, item) => sum + item.precio * 1, 0);
 
   const [position, setPosition] = useState({ x: 10, y: 70 });

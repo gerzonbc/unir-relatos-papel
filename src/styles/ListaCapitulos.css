@@ -1,4 +1,4 @@
-.lista-capitulos {
+.capitulos {
   margin: 2rem 0;  
   padding: 1rem;
   border: 1px solid #ddd;
@@ -6,7 +6,7 @@
   background-color: #f9f9f9;
 }
 
-.lista-capitulos__titulo {
+.capitulos__titulo {
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-.lista-capitulos__lista {
+.capitulos__lista {
   list-style: none;
   padding: 0;
   margin: 0;

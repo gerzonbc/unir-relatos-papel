@@ -1,15 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/Comentario.css';
+import '../styles/ItemComentario.css';
 
-const ComentarioItem = ({ comentario }) => {    
+const ItemComentario = ({ comentario }) => {
   return (
-    <div className="comment-card">
-      <div className="comment-author">Jane Smith</div>
-      <div className="comment-text">Beautifully written, though some parts were a bit slow for me.</div>
-      <div className="comment-rating">⭐⭐⭐⭐☆</div>
-    </div>  
+    <div class="comentario">
+      <div class="comentario__header">
+        <p class="comentario__usuario">{comentario.usuario}</p>
+        <div class="comentario__valoracion">
+          <span class="comentario__estrella comentarios__estrella--filled">★</span>
+          <span class="comentario__estrella comentarios__estrella--filled">★</span>
+          <span class="comentario__estrella comentarios__estrella--filled">★</span>
+          <span class="comentario__estrella comentarios__estrella--empty">☆</span>
+          <span class="comentario__estrella comentarios__estrella--empty">☆</span>
+        </div>
+      </div>
+      <p class="comentario__texto">{comentario.comentario}</p>
+      <p class="comentario__fecha">Publicado el 27 de diciembre de 2024</p>
+  </div>
   );
 };
 
-export default BookItem;
+export default ItemComentario;

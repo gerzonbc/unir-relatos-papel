@@ -1,8 +1,18 @@
-.lista-comentarios {
+.comentarios {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-  gap: 16px;
-  padding: 50px;
-  margin: 0;
-  background-color: #0ba56a;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.comentarios__titulo {
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
 }

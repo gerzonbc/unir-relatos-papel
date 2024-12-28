@@ -1,0 +1,48 @@
+.comentario {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.comentario:last-child {
+  border-bottom: none;
+}
+
+.comentario__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comentario__usuario {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.comentario__valoracion {
+  display: flex;
+  gap: 5px;
+}
+
+.comentario__estrella {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.comentario__estrella--filled {
+  color: #f5c518;
+}
+
+.comentario__texto {
+  color: #333;
+  line-height: 1.5;
+}
+
+.comentario__fecha {
+  font-size: 0.9em;
+  color: #999;
+  text-align: right;
+}

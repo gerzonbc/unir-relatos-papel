@@ -27,10 +27,10 @@ const BDLibros = [
       {numero: '5', titulo: 'A Dare Gone Wrong'}      
     ],
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/8225261-L.jpg'
   },
@@ -47,6 +47,12 @@ const BDLibros = [
       {numero: '3', titulo: 'Thoughtcrime'},
       {numero: '4', titulo: 'Room 101'},
       {numero: '5', titulo: 'The Proles'}      
+    ],
+    comentarios: [
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/7222246-L.jpg'
   },
@@ -65,10 +71,10 @@ const BDLibros = [
       {numero: '5', titulo: 'A Misunderstanding'}      
     ],    
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/8231856-L.jpg'
   },
@@ -87,10 +93,10 @@ const BDLibros = [
       {numero: '5', titulo: 'Tragedy'}      
     ],
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/7222161-L.jpg'
   },
@@ -109,10 +115,10 @@ const BDLibros = [
       {numero: '5', titulo: 'The Final Battle'}      
     ],
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/7222247-L.jpg'
   },
@@ -131,10 +137,10 @@ const BDLibros = [
       {numero: '5', titulo: 'The Carousel'}      
     ],
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/8226191-L.jpg'
   },
@@ -153,10 +159,10 @@ const BDLibros = [
       {numero: '5', titulo: 'The Lonely Mountain'}      
     ],    
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/6979861-L.jpg'
   },
@@ -175,10 +181,10 @@ const BDLibros = [
       {numero: '5', titulo: 'The Treasure'}      
     ],
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/8107891-L.jpg'
   },
@@ -197,10 +203,10 @@ const BDLibros = [
       {numero: '5', titulo: 'The Fox'}      
     ],
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/8235116-L.jpg'
   },
@@ -219,10 +225,10 @@ const BDLibros = [
       {numero: '5', titulo: 'The Ending'}      
     ],
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/7222248-L.jpg'
   },
@@ -241,10 +247,10 @@ const BDLibros = [
       {numero: '5', titulo: 'The Punishment'}      
     ],
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/8233921-L.jpg'
   },
@@ -263,10 +269,10 @@ const BDLibros = [
       {numero: '5', titulo: 'Redemption'}      
     ],
     comentarios: [
-      {id: '1', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
-      {id: '2', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
-      {id: '3', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
-      {id: '4', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
+      {id: '1', usuario: 'Juan Perez', valoracion: '4', comentario: 'Excelente libro, es una novela conmovedora que explora la injusticia racial y la pérdida de la inocencia a través de los ojos de Scout Finch, una niña en el sur de los Estados Unidos durante la Gran Depresión.'},
+      {id: '2', usuario: 'Benito Juarez', valoracion: '5', comentario: 'Me gusto bastante, es una poderosa historia sobre la lucha contra los prejuicios en una sociedad dividida por el racismo.'},
+      {id: '3', usuario: 'Gerzon Barrientos', valoracion: '3', comentario: 'Libro no muy interesante, considero que su ritmo lento y enfoque idealista pueden restar impacto a la complejidad de los temas abordados.'},
+      {id: '4', usuario: 'Unir - Universidad en Internet', valoracion: '1', comentario: 'No me gusto para nada,  la perspectiva infantil de Scout simplifica las profundas tensiones sociales de la época.'},
     ],
     imagen: 'https://covers.openlibrary.org/b/id/8234021-L.jpg'
   }
@@ -279,7 +285,7 @@ const App = () => {
     <ContextoGlobal.Provider value={{items, adicionarItemCarrito, eliminarItemCarrito, limpiarCarrito}}>
       <BrowserRouter>
         <Header />
-        <Carrito items={items} onRemove={eliminarItemCarrito} onCheckout={limpiarCarrito} />
+        <Carrito items={items} onRemove={eliminarItemCarrito} />
         <Routes>
           <Route path='/' element={<Landing />} />
           <Route path='/principal' element={<Principal libros={BDLibros} />} />        
